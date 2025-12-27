@@ -506,6 +506,11 @@ a[aria-label]::before, button[aria-label]::before {
   padding-block: 1.5rem;
   background-color: var(--color-dark-10);
 }
+@media (width <= 47.99875rem) {
+  .header__body {
+    padding-block: 1.25rem;
+  }
+}
 .header__body-inner {
   display: flex;
   justify-content: space-between;
@@ -533,6 +538,11 @@ a[aria-label]::before, button[aria-label]::before {
     opacity: 0;
     visibility: hidden;
     translate: 100%;
+  }
+}
+@media (width <= 47.99875rem) {
+  .header__menu {
+    overflow-y: auto;
   }
 }
 .header__menu-list {
