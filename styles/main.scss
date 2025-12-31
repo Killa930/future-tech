@@ -9,3 +9,11 @@
 @use 'block/button';
 @use 'block/burger-button';
 @use 'block/header';
+@use 'block/badge';
+@use 'block/footer';
+@use 'block/soc1als';
+
+
+header {
+    display: none !important;
+}
