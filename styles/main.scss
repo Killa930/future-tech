@@ -19,9 +19,15 @@
 @use 'block/advantage-card';
 @use 'block/hero';
 
+@use 'block/tag';
+@use 'block/section';
+@use 'block/list';
+@use 'block/tile';
+@use 'block/card';
 
 
 
-header, footer {
+
+.header, main > *:not(:last-child), .footer {
     display: none !important;
 }
